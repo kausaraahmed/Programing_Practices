@@ -1,21 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int number, number2 , number3, divider, remainder;
+    int Number, Number2 , Number3, Divider, Remainder;
 
     printf("Enter a number : "); 
-    scanf("%d", &number);
+    scanf("%d", &Number);
 
     printf("Enter the divider : "); 
-    scanf("%d", &divider);
+    scanf("%d", &Divider);
 
-    number2 = number / divider; 
+    Number2 = Number / Divider; 
 
-    number3= number2*divider;
+    Number3 = Number2 * Divider;
 
-    remainder= number-number3;    
+    Remainder = Number - Number3;    
 
-    printf("The remainder is: %d", remainder);
+    printf("The remainder is: %d", Remainder);
 
     return 0;
 }
